@@ -16,11 +16,13 @@
     "incremental": true
   },
   "include": [
-    "next-env.d.ts",
+  "pages/index.js",
+  "pages/_app.js",
+    "next-env.d.s",
     "**/*.ts",
     "**/*.tsx",
-    "pages/_app.tsx",
-    "pages/index.tsx",
+    "pages/_app.js",
+    "pages/index.js",
     "pages/api/comments.js"
   ],
   "exclude": ["node_modules"]
