@@ -114,11 +114,11 @@ body {
   100% { opacity: 1; }
 }
 .fade-in-text {
-  animation: fadeInTexts 12s;
-  -webkit-animation: fadeInTexts 12s;
-  -moz-animation: fadeInTexts 12s;
-  -o-animation: fadeInTexts 12s;
-  -ms-animation: fadeInTexts 12s;
+  animation: fadeInTexts 10s;
+  -webkit-animation: fadeInTexts 10s;
+  -moz-animation: fadeInTexts 10s;
+  -o-animation: fadeInTexts 10s;
+  -ms-animation: fadeInTexts 10s;
 }
 @keyframes fadeInTexts {
   0% { opacity: 0; }
