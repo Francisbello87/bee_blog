@@ -52,6 +52,11 @@ body {
 .author-image {
   left: 46%;
 }
+@media screen and (max-width: 768px) {
+  .author-image {
+    left: 40%;
+  }
+}
 // .featured-image{
 
 // }
@@ -78,11 +83,11 @@ body {
   }
 }
 .fade-in-image { 
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
+  animation: fadeIn 8s;
+  -webkit-animation: fadeIn 8s;
+  -moz-animation: fadeIn 8s;
+  -o-animation: fadeIn 8s;
+  -ms-animation: fadeIn 8s;
 }
 @keyframes fadeIn {
   0% { opacity: 0; }
